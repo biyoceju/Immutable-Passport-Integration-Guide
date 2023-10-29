@@ -17,7 +17,7 @@ click add project
 enter project name, the environment name and choose a type of environment (mainnet or testnet) then click create
 create a passport client for your created environment by clicking the button Add client. Enter the name and the url created in step 1. Click create. The next page will display a client ID. Be sure to make a note of your application's Client ID, Callback URL and the Logout URL that you entered, as you will need these to initialise the Passport module in your application.
 
-# Installing and initialising the Passport client
+# Step3: Installing and initialising the Passport client
 open the command line in the project directory (fibonaccy_app directory)
 check if node is installed in your computer by entering: node -v. You should see the version of node installed in your computer. If you see an error message, Install node by running: nvm install --lts
 install the Immutable SDK by running the following command: npm install -D @imtbl/sdk. If compications occur, kindly use the following commands: rm -Rf node_modules && npm cache clean --force && npm i
